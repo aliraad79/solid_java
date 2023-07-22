@@ -1,6 +1,6 @@
 package solid_java.main;
 
-public class Rectangle {
+public class Rectangle implements Shape {
     public int width;
     public int length;
 
@@ -25,8 +25,9 @@ public class Rectangle {
         this.length = length;
     }
 
-    public int  computeArea() {
+
+    @Override
+    public int computeArea() {
         return width * length;
     }
-
 }
