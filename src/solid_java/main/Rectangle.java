@@ -8,7 +8,7 @@ public class Rectangle implements Shape {
         this.width = width;
         this.length = length;
     }
-
+    // Setter and Getter method for the length and width variable
     public int getWidth() {
         return width;
     }
